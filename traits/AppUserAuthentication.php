@@ -3,8 +3,8 @@ declare(strict_types=1);
 
 namespace traits;
 trait AppUserAuthentication {
-    private string $loginApp = 'Jon';
-    private string $passwordApp = '456';
+    protected string $loginApp = 'Jon';
+    protected string $passwordApp = '456';
 
     public function checkUser(string $login, string $pass) : void
     {

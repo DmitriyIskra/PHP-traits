@@ -7,4 +7,4 @@ use classes\User;
 $u = new User();
 
 $u->checkUser('Jon', '456');
-$u->checkUserMob('Jack', '123');
+$u->checkUserM('Jack', '123');
